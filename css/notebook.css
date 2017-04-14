@@ -715,7 +715,7 @@
 	opacity:0;
 	z-index: 100;
 	/*display: none;*/
-	transition: all .5s;
+	transition: all 1s;
 	/*animation: donghau 2s linear;*/
 }
 .choose-city{

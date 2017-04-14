@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>注册</title>
-	<link rel="stylesheet" href="css/register.css">
-	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/flash_purchase.css">
 	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/base.css">
+	<title>闪购</title>
 </head>
 <body>
 	<!-- 首部导航 -->
@@ -13,7 +13,7 @@
 		<div class="header-new">
 			<div class="head-nav center-box clearfix">
 				<div class="head-nav-register fl">
-					<a href="#targe" class="fl">登录</a>
+					<a href="#targe" class="fl deng">登录</a>
 					<a href="register.html" class="fl">注册</a>
 				</div>
 				<div class="shopping-car fr">
@@ -26,12 +26,20 @@
 			<div class="second center-box clearfix">
 				<ul class="left-nav-list fl clearfix">
 					<li class="shouye">
-						<a href="index.html"><i class="iconfont icon-shouyetubiao1"></i></a>
+						<a href="index.html">
+							<i class="iconfont icon-shouyetubiao1"></i>
+						</a>
 					</li>
-					<li><a href="fair.html">市集</a></li>
-					<li><a href="new-product.html">新品</a></li>
-					<li><a href="hot-sale.html">热卖</a></li>
+					<li class="siteNavL">
+						<a href="#"></a>
+						<div class="little-box">
+							<p><a style="background: #f0f0f0;" href="#">市集</a></p>
+							<p><a class="p2" href="#">动态</a></p>
+						</div>
+					</li>
 					<li><a href="flsah_purchase.html">闪购</a></li>
+					<li><a href="#">礼物</a></li>
+					<li><a href="#">品牌</a></li>
 					<li style="height: 44px;" class="rel">
 						<a href="#">定制</a>
 						<div class="hidden-field">
@@ -207,7 +215,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- 登录 -->
 	<div id="targe" class="box">
 		<div class="denglu center-box">
@@ -277,94 +285,19 @@
 			</div>
 		</div>
 	</div>
-	<!-- 注册内容 -->
-	<div class="register-all">
-		<div class="register center-box clearfix">
-			<div class="register-left fl">
-				<p style="color: #229ca0;font-size: 19px;">注册哇噻网</p>
-				<p>喜欢手工原创设计的快加入我们！一起寻找商品，挖掘特色小店，结识志趣相投的人！</p>
-				<p>
-					<span>电子邮箱: </span>
-					<input class="btn_zc" type="text" id="label1">
-					<label for="label1" class="color1">请输入一个用于登录的电子邮箱地址</label>
-				</p>
-				<p>
-					<span>取个昵称: </span>
-					<input class="btn_zc" type="text" id="label2">
-					<label for="label2" class="color1">您提供的用户名已存在</label>
-				</p>
-				<p>
-					<span>设置密码: </span>
-					<input class="btn_zc" type="password" id="label3">
-					<label for="label3" class="color1">您的密码</label>
-				</p>
-				<p>
-					<span>确认密码: </span>
-					<input class="btn_zc" type="password" id="label4">
-					<label for="label4" class="color1">重复输入您的密码</label>
-				</p>
-				<p class="special">
-					<span>性别: </span>
-					<input name="sex" type="radio" value="1" checked="">女&nbsp;&nbsp;
-					<input name="sex" type="radio" value="2">男
-				</p>
-				<p class="special1">
-					<span>验证码: </span>
-					<input type="text">
-					<a href="#"><img src="img/index.png" alt=""></a>
-					<label class="color1">点击图片更换一张</label>
-				</p>
-				<p class="special2">
-					<input type="checkbox" checked="">
-					<span>我已阅读并同意</span>
-					<a href="#">《哇噻网用户协议》</a>
-				</p>
-				<p>
-					<input class="login_nbtn" type="button">
-				</p>
-			</div>
-			<div class="register-right fr">
-				<div class="register-right-top">
-					<p>已有哇噻网账号</p>
-					<a href="#targe">
-						<img src="img/login_btn.png" alt="">
-					</a>
-				</div>
-				<div class="register-right-bottom">
-					<p>你也可以用站外帐号登录</p>
-					<div class="register-right-imgs clearfix">
-						<a href="#">
-							<img src="img/denglu_qq.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_sina.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_icon1_16.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_icon1_18.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_baidu.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_douban.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_kaixin.gif" alt="">
-						</a>
-						<a href="#">
-							<img src="img/denglu_shengda.png" alt="">
-						</a>
-						<a href="#">
-							<img style="margin-left: 50px;" src="img/denglu_renren.gif" alt="">
-						</a>
-					</div>
-				</div>
+
+	<!-- 闪购 -->
+	<div class="flash_purchase">
+		<div class="flash_purchase_title center-box">
+			<h2>闪购</h2>
+		</div>
+		<div class="shangou_group center-box">
+			<div class="group">
+				<img src="img/groupIdea.png" alt="">
 			</div>
 		</div>
 	</div>
+
 	<!-- 页面尾部 -->
 	<div class="footer">
 		<div class="footer-top">
